@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/layout.css" media="screen"/>
+    <link rel="stylesheet" href="css/layout2.css" media="screen"/>
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href = "images/bird.jpeg" title="bird"
+            onclick="showPic(this); return false;">bird</a>
+        </li>
+        <li>
+            <a href = "images/cat.jpeg" title="cat"
+               onclick="showPic(this); return false;">cat</a>
+        </li>
+        <li>
+            <a href = "images/dog.jpg" title="dogs"
+               onclick="showPic(this); return false;">dog</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="images/placeholder.jpg" alt="my image gallery"/>
+    <p id="description">Choose an image.</p>
+    <script src="js/example.js"></script>
+    <script src="js/showPic.js"></script>
+</body>
+</html>
